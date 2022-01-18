@@ -31,6 +31,7 @@ const ItemWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  max-width: 1060px;
   margin: 0 5px;
 `;
 

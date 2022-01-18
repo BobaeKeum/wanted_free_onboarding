@@ -94,7 +94,7 @@ const CarouselWrapper = styled.div`
   display: flex;
   width: 630%;
   transform: translate(
-    -${({ currentSlide, size, windowSize, length }) => currentSlide * size - (windowSize - size * 1.05) / 2}px
+    -${({ currentSlide, size, windowSize, length }) => currentSlide * size - (windowSize - size - 40) / 2}px
   );
   transition: transform 1s;
 `;
